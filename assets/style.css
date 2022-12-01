@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.top_left_container {
+    width: 900px;
+    padding-right: 15px;
+}
+
+.top_left_container div{
+    margin-bottom: 10px;
+}
+
+.numbers_container {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-top: 12px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+    
+}
+
+.numbers_container strong {
+    font-size: x-large;
+    color:darkslategrey;
+}
+.numbers_container, .assets_container{
+    border: 2px solid rgb(138, 180, 76);
+}
+
+.assets_container {
+    padding: 15px;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+}
+
+.assets_container strong {
+    font-size: x-large;
+    color: darkslategrey;
+}
+
+.top_left_container h1{
+    background-color: rgb(138, 180, 76);
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.title_container {
+    text-align: center;
+    background-color: rgb(138, 180, 76);
+    padding: 20px 40px;
+    border-radius: 50px;
+}
+
+.job_container {
+    border: solid 2px rgb(138, 180, 76);
+    padding: 25px;
+    margin: 15px 0px 20px 0px;
+    border-top-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+}
+
+.job_container h1 {
+    color: darkslategray;
+}
+
+.img_container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+main {
+    /* display: flex;
+    flex-direction: column; */
+    border: solid 2px rgb(138, 180, 76);
+    margin: 10px;
+    padding: 30px;
+    border-top-left-radius: 60px 60px;
+    border-top-right-radius: 60px 60px;
+}
+
+main h2 {
+    display: inline-block;
+    color: darkslategray;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer div {
+    background-color: rgb(138, 180, 76);
+    margin-top: 12px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.conditions_container {
+    margin-right: 40px;
+   }
